@@ -1780,7 +1780,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
     *  Keyboard interactions.
     ***************************************************************************/
 
-    /**
+    /**编码GBK的不可映射字符
      * Returns true if the user has typed a key (that has not yet been processed).
      *
      * @return {@code true} if the user has typed a key (that has not yet been processed

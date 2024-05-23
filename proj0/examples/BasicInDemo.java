@@ -1,4 +1,5 @@
 /** Simpler demo of the In class. */
+import java.util.Arrays;
 public class BasicInDemo {
 	public static void main(String[] args) {
 		In in = new In("BasicInDemo_input_file.txt");
@@ -9,7 +10,7 @@ public class BasicInDemo {
 
 		/* Compare the calls below to the contents of BasicInDemo_input_file.txt */
 
-		int firstItemInFile = in.readInt();
+		/*int firstItemInFile = in.readInt();
 		double secondItemInFile = in.readDouble();
 		String thirdItemInFile = in.readString();
 		String fourthItemInFile = in.readString();
@@ -17,6 +18,10 @@ public class BasicInDemo {
 
 		System.out.println("The file contained "  + firstItemInFile + ", " + 
 			               secondItemInFile + ", " + thirdItemInFile + ", " +
-			               fourthItemInFile + ", and " + fifthItemInFile);
+			               fourthItemInFile + ", and " + fifthItemInFile);*/
+		String s=in.readLine();
+		String d=in.readLine();
+		System.out.println(d);
+
 	}
 } 

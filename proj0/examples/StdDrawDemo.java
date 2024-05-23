@@ -77,6 +77,7 @@ public class StdDrawDemo {
 
 
 		double size = 100;
+		
 		while (size < 500) {
 			StdDraw.clear();
 			StdDraw.picture(0, 0, imageToDraw, size, size);
@@ -92,6 +93,7 @@ public class StdDrawDemo {
 			StdDraw.pause(1);
 			size -= 1;
 		}
+	
 	}
 
 	public static void main(String[] args) {
